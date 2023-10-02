@@ -1,0 +1,74 @@
+.home-page {
+
+    .text-zone {
+        position: absolute;
+        left: 10%;
+        top: 40%;
+        transform: translateY(-50%);
+        width: 40%;
+        max-height: 90%;
+    }
+    h1 {
+        color: azure;
+        font-size: 50px;
+        margin: 0;
+        font-family: 'Coolvetica';
+        font-weight: 400;
+
+        img {
+            width:50px;
+            margin-left: 10px;
+            opacity: 0;
+            height: auto;
+            animation: rotateIn 1s linear both;
+            animation-delay: 1.4s;
+            position: relative;
+        }
+    }
+    
+}
+
+h2 {
+    color: #9ddb20;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    animation: fadeIn 1s 1.8s backwards;
+}
+
+.portfolio-section-title {
+    color: antiquewhite;
+}
+
+.text-md {
+    color: antiquewhite;
+    padding: 0px;
+}
+
+.portfolio-section-img{
+    border-color: #9ddb20;
+    border-width: 10px;
+    border: #9ddb20;
+}
+
+.flat-button {
+    color: aquamarine;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 10px 18px;
+    border: 1px solid aquamarine;
+    margin-top: 25px;
+    float: left;
+    animation: fadeIn 1s 1.8s backwards;
+    white-space: nowrap;
+
+    &:hover {
+        background: aquamarine;
+        color: #333;
+    }
+}
