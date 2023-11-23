@@ -13,13 +13,13 @@ const About = () => {
             <div className='text-zone'>
                 <h1>
                     <AnimatedLetters 
-                        strArray={['A', 'b', 'o', 'u', 't', ' ', 'm', 'e']}
+                        strArray={['A', 'b', 'o', 'u', 't', ' ', 'M', 'e']}
                         idx={15}
                     />   
                 </h1>
                 <p>
                     As a determined recent bootcamp graduate, I am committed to improving my skills and becoming a better software developer. With a solid foundation in HTML, CSS, Javascript, and Python, I have only scratched the surface of what this field has to offer. I view every coding challenge as an exciting opportunity to learn and grow.
-                    I have honed my communication skills, making me an effective bridge between technical and non-technical colleagues. I am excited to start this journey of continuous improvement and growth as a software developer, eager to take on new challenges and contribute my expertise to innovative projects.
+                    I have improved my communication skills, making me an effective bridge between technical and non-technical colleagues. I am excited to start this journey of continuous improvement and growth as a software developer, eager to take on new challenges and contribute my expertise to innovative projects.
                 </p>
 
                 
