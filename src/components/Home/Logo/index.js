@@ -2,7 +2,7 @@ import './index.scss'
 import LogoD from '../../../assets/images/letter_d.png'
 import { useEffect, useRef } from 'react'
 
-import gsap from 'gsap-trial';
+
 
 const Logo = () => {
 
@@ -13,11 +13,7 @@ const Logo = () => {
     useEffect(() => {
         
 
-        gsap.timeline()
-        .to(bgRef.current, {
-            duration: 10,
-            opacity: .35,
-        })
+
     },[])
 
     return (
